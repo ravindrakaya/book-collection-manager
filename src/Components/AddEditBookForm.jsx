@@ -30,7 +30,7 @@ const AddEditBookForm = ({
   const validateForm = () => {
     const newErorrs = {};
     if (!formData.title.trim()) {
-      newErorrs.title = "Titie is Required*";
+      newErorrs.title = "Title is Required*";
     }
     if (!formData.author.trim()) {
       newErorrs.author = "Author is Required*";
